@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anjali Foods</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Barlow+Condensed:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- ====== NAVBAR ====== -->
+</body>
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">
+            <span class="logo-icon">🌿</span>
+            <span class="logo-text">Anjeli <strong>Foods</strong></span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <div class="nav-right">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search..." />
+            </div>
+            <a href="#" class="cart-btn">
+                <i class="fas fa-shopping-bag"></i>
+                <span class="cart-count">4</span>
+            </a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+</nav>
+
+<!-- ====== HERO SECTION ====== -->
+<section class="hero" id="hero">
+    <div class="hero-bg-shape shape1"></div>
+    <div class="hero-bg-shape shape2"></div>
+    <div class="hero-bg-shape shape3"></div>
+
+    <div class="hero-container">
+
+        <!-- LEFT -->
+        <div class="hero-left">
+            <div class="hero-tag animate-fade-up delay-1">🌿 100% Natural Snacks</div>
+            <h1 class="hero-title animate-fade-up delay-2">
+                EAT OUR<br />
+                <span class="highlight">GRILLED</span><br />
+                NUTS & SEEDS
+            </h1>
+            <p class="hero-desc animate-fade-up delay-3">
+                Satisfying savory premium mixed nuts with hand-picked ingredients and bold, natural flavors you'll
+                love every crunch of.
+            </p>
+            <div class="crispy-badge animate-fade-up delay-4">
+                <span class="crispy-text">CRISPY &amp;</span>
+                <span class="tasty-text">TASTY</span>
+            </div>
+            <a href="#" class="cta-btn animate-fade-up delay-5">
+                <i class="fas fa-arrow-right"></i>
+                <span>Show More</span>
+            </a>
+        </div>
+
+        <!-- CENTER -->
+        <div class="hero-center animate-float">
+            <div class="product-image-wrap">
+                <div class="product-glow"></div>
+                <img src="01.png" alt="Product 1" class="product-img active-img" />
+                <img src="02.png" alt="Product 2" class="product-img" />
+                <img src="03.png" alt="Product 3" class="product-img" />
+                <img src="04.png" alt="Product 4" class="product-img" />
+                <img src="05.png" alt="Product 5" class="product-img" />
+                <div class="img-dots">
+                    <span class="dot active-dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <div class="float-chip chip1">🥜</div>
+                <div class="float-chip chip2">✦</div>
+                <div class="float-chip chip3">🌿</div>
+                <div class="float-chip chip4">▲</div>
+                <div class="float-chip chip5">🫚</div>
+            </div>
+        </div>
+
+        <!-- RIGHT -->
+        <div class="hero-right">
+            <div class="nutrition-card animate-fade-left delay-1">
+                <div class="nut-icon" style="background:#e74c3c;">🌶️</div>
+                <div class="nut-info">
+                    <h4>Extra Protein</h4>
+                    <p>Rich in natural protein that fuels your body and keeps you energized all day long.</p>
+                </div>
+            </div>
+            <div class="nutrition-card animate-fade-left delay-2">
+                <div class="nut-icon" style="background:#2ecc71;">🥜</div>
+                <div class="nut-info">
+                    <h4>Walnut Goodness</h4>
+                    <p>Packed with Omega-3 fatty acids and antioxidants for heart health and brain power.</p>
+                </div>
+            </div>
+            <div class="nutrition-card animate-fade-left delay-3">
+                <div class="nut-icon" style="background:#f39c12;">🔥</div>
+                <div class="nut-info">
+                    <h4>Smokey Roasted</h4>
+                    <p>Hand-roasted to a perfect smokey finish — bold flavor with zero artificial additives.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ====== WHY CHOOSE US ====== -->
+<section class="why-section">
+    <div class="why-inner">
+        <div class="why-header">
+            <span class="why-eyebrow">Our Promise</span>
+            <h2 class="why-title">Why choose <em>us?</em></h2>
+            <p class="why-subtitle">Over 2 million people trust us every day for quality, speed, and care.</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-card">
+                <span class="why-card-num">01</span>
+                <div class="why-icon"><svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
+                        <path d="M8 12s1.5 2 4 2 4-2 4-2" />
+                        <path d="M9 9h.01M15 9h.01" />
+                    </svg></div>
+                <h3 class="why-card-title">Fresh Food</h3>
+                <p class="why-card-desc">We serve only the best and freshest quality food, sourced daily from local
+                    farms and trusted suppliers.</p>
+            </div>
+            <div class="why-card">
+                <span class="why-card-num">02</span>
+                <div class="why-icon"><svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21L12 17.77L5.82 21L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                    </svg></div>
+                <h3 class="why-card-title">Best Offer</h3>
+                <p class="why-card-desc">We give the best offers and exclusive deals for our valuable customers, making
+                    every order a great value.</p>
+            </div>
+            <div class="why-card">
+                <span class="why-card-num">03</span>
+                <div class="why-icon"><svg viewBox="0 0 24 24">
+                        <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3" />
+                        <rect x="9" y="11" width="14" height="10" rx="2" />
+                        <circle cx="12" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                    </svg></div>
+                <h3 class="why-card-title">Fast Delivery</h3>
+                <p class="why-card-desc">We have delivery vans running at top speed to ensure your order arrives hot and
+                    on time, every time.</p>
+            </div>
+            <div class="why-card">
+                <span class="why-card-num">04</span>
+                <div class="why-icon"><svg viewBox="0 0 24 24">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                    </svg></div>
+                <h3 class="why-card-title">24/7 Support</h3>
+                <p class="why-card-desc">Our friendly support team is available around the clock to handle any
+                    questions, issues, or special requests.</p>
+            </div>
+            <div class="why-card">
+                <span class="why-card-num">05</span>
+                <div class="why-icon"><svg viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg></div>
+                <h3 class="why-card-title">Eco Packaging</h3>
+                <p class="why-card-desc">We use 100% sustainable, biodegradable packaging because we care about the
+                    planet as much as your meal.</p>
+            </div>
+        </div>
+        <div class="why-strip">
+            <p class="why-strip-text">"Taste the difference, feel the care."</p>
+            <div class="why-strip-stats">
+                <div class="why-stat">
+                    <span class="why-stat-num">2M+</span>
+                    <span class="why-stat-label">Happy Customers</span>
+                </div>
+                <div class="why-stat">
+                    <span class="why-stat-num">98%</span>
+                    <span class="why-stat-label">Satisfaction Rate</span>
+                </div>
+                <div class="why-stat">
+                    <span class="why-stat-num">30 min</span>
+                    <span class="why-stat-label">Avg. Delivery</span>
+                </div>
+            </div>
+            <a href="#" class="why-strip-btn">
+                Order Now
+                <svg viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ====== MEET THE OWNER SECTION (NEW) ====== -->
+<section class="owner-section" id="owner">
+    <div class="owner-inner">
+
+        <!-- LEFT: Big owner photo -->
+        <div class="owner-photo-wrap">
+            <div class="owner-photo-bg"></div>
+            <div class="owner-img-container">
+                <!-- Replace src with the owner's actual photo -->
+                <div class="owner-img-placeholder">
+                    <span class="owner-img-icon">👩‍🍳</span>
+                </div>
+            </div>
+            <!-- Floating badge -->
+            <div class="owner-badge">
+                <span class="owner-badge-num">15+</span>
+                <span class="owner-badge-label">Years of<br>Experience</span>
+            </div>
+            <!-- Decorative leaf -->
+            <div class="owner-deco-leaf">🌿</div>
+        </div>
+
+        <!-- RIGHT: About the owner -->
+        <div class="owner-content">
+            <span class="owner-eyebrow">Meet the Founder</span>
+            <h2 class="owner-title">Crafted with <em>love</em> by Anjeli</h2>
+            <p class="owner-quote">"Every recipe I make carries a piece of my heart — real ingredients, real care, real
+                flavor."</p>
+            <p class="owner-bio">
+                Hi, I'm <strong>Anjeli</strong> — a passionate home cook turned food entrepreneur from the heart of Sri
+                Lanka.
+                What started as Sunday kitchen experiments with my grandmother's recipes soon grew into something much
+                bigger:
+                a mission to bring honest, preservative-free homemade food to every table.
+            </p>
+            <p class="owner-bio">
+                From our hand-roasted nut mixes and fiery chilli pastes to our slow-cooked beef moussaka and flaky fish
+                pies —
+                every product is made in small batches with ingredients I'd feed my own family. No shortcuts. No
+                compromises. Just real food.
+            </p>
+            <div class="owner-stats">
+                <div class="owner-stat">
+                    <span class="owner-stat-num">50+</span>
+                    <span class="owner-stat-label">Recipes Created</span>
+                </div>
+                <div class="owner-stat">
+                    <span class="owner-stat-num">2M+</span>
+                    <span class="owner-stat-label">Happy Customers</span>
+                </div>
+                <div class="owner-stat">
+                    <span class="owner-stat-num">100%</span>
+                    <span class="owner-stat-label">Natural Ingredients</span>
+                </div>
+            </div>
+            <div class="owner-actions">
+                <a href="#" class="btn-primary">Our Story</a>
+                <a href="#contact" class="btn-ghost">Get in Touch</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ====== ABOUT SECTION ====== -->
+<section class="about-section" id="about">
+    <div class="about-inner">
+        <div class="about-left">
+            <span class="about-eyebrow">Our Story</span>
+            <h2 class="about-title">Home of the <br><em>Real & Natural</em><br> Homemade Food</h2>
+            <p class="about-desc">
+                We craft every jar, every dish, and every batch with love and honest ingredients.
+                From our crunchy granola &amp; nut mixes to our rich beef moussaka, flaky fish pie,
+                and fiery chilli paste — everything is made fresh, no preservatives, no shortcuts.
+                Just real food the way it should be.
+            </p>
+            <div class="about-btns">
+                <a href="#" class="btn-primary">Learn More</a>
+                <a href="#" class="btn-ghost">See Our Menu</a>
+            </div>
+        </div>
+        <div class="about-icons">
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <path d="M12 2a5 5 0 0 1 5 5c0 3-5 8-5 8S7 10 7 7a5 5 0 0 1 5-5z" />
+                        <circle cx="12" cy="7" r="2" />
+                    </svg></div>
+                <span>Granola Mixes</span>
+            </div>
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="18" height="18" rx="3" />
+                        <path d="M3 9h18M9 21V9" />
+                    </svg></div>
+                <span>Homemade Recipes</span>
+            </div>
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" />
+                        <path d="M8 12s1.5 2 4 2 4-2 4-2" />
+                        <path d="M9 9h.01M15 9h.01" />
+                    </svg></div>
+                <span>24/7 Order Online</span>
+            </div>
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg></div>
+                <span>Learn More</span>
+            </div>
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <path d="M5 17H3a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v3" />
+                        <rect x="9" y="11" width="14" height="10" rx="2" />
+                        <circle cx="12" cy="21" r="1" />
+                        <circle cx="20" cy="21" r="1" />
+                    </svg></div>
+                <span>In-Store Pickup</span>
+            </div>
+            <div class="about-icon-card">
+                <div class="icon-wrap"><svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21L12 17.77L5.82 21L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                    </svg></div>
+                <span>Pure &amp; Natural</span>
+            </div>
+        </div>
+        <div class="about-photos">
+            <div class="polaroid polaroid-1">
+                <div class="polaroid-img p-img-1"></div>
+                <p>Granola &amp; Nuts</p>
+            </div>
+            <div class="polaroid polaroid-2">
+                <div class="polaroid-img p-img-2"></div>
+                <p>Beef Moussaka</p>
+            </div>
+        </div>
+    </div>
+    <div class="tape tape-tl"></div>
+    <div class="tape tape-tr"></div>
+    <div class="tape tape-bl"></div>
+    <div class="tape tape-br"></div>
+</section>
+
+
+<!-- ====== CONTACT SECTION ====== -->
+<section class="contact-section" id="contact">
+    <div class="contact-inner">
+        <div class="contact-left">
+            <h2 class="contact-title">Get In Touch</h2>
+            <p class="contact-desc">
+                We'd love to hear from you! Whether you have a question about our
+                homemade granola, beef moussaka, fish pie, chilli paste, or anything
+                else — our team is ready to help.
+            </p>
+            <div class="contact-info-list">
+                <div class="contact-info-item">
+                    <div class="contact-icon-wrap"><svg viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
+                            <circle cx="12" cy="9" r="2.5" />
+                        </svg></div>
+                    <div><strong>Address</strong><span>123 Green Lane, Colombo, Sri Lanka</span></div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon-wrap"><svg viewBox="0 0 24 24">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 12 19.79 19.79 0 0 1 1 3.18 2 2 0 0 1 3 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16l.92.92z" />
+                        </svg></div>
+                    <div><strong>Phone Number</strong><span>+94 77 123 4567</span></div>
+                </div>
+                <div class="contact-info-item">
+                    <div class="contact-icon-wrap"><svg viewBox="0 0 24 24">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg></div>
+                    <div><strong>E-Mail</strong><span>hello@anjalifoods.com</span></div>
+                </div>
+            </div>
+            <hr class="contact-divider">
+            <p class="follow-label">Follow Us:</p>
+            <div class="social-links">
+                <a href="YOUR_FACEBOOK_URL" target="_blank" class="social-btn" aria-label="Facebook"><svg
+                        viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                    </svg></a>
+                <a href="YOUR_TWITTER_URL" target="_blank" class="social-btn" aria-label="Twitter"><svg
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                    </svg></a>
+                <a href="YOUR_YOUTUBE_URL" target="_blank" class="social-btn" aria-label="YouTube"><svg
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                        <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+                    </svg></a>
+                <a href="YOUR_INSTAGRAM_URL" target="_blank" class="social-btn" aria-label="Instagram"><svg
+                        viewBox="0 0 24 24">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                    </svg></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <div class="contact-form-card">
+                <h3 class="form-title">Send a Message</h3>
+                <form id="contactForm" novalidate>
+                    <div class="form-group">
+                        <input type="text" id="cf-name" placeholder="Name" required>
+                        <span class="form-error">Please enter your name.</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="cf-email" placeholder="E-mail address" required>
+                        <span class="form-error">Please enter a valid email.</span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="cf-message" placeholder="Message" rows="5" required></textarea>
+                        <span class="form-error">Please enter a message.</span>
+                    </div>
+                    <p class="form-consent">By submitting, you agree to the processing of your personal data as
+                        described in our Privacy Statement.</p>
+                    <button type="submit" class="form-submit" id="submitBtn">
+                        <span class="btn-text">Submit</span>
+                        <span class="btn-loader" hidden>Sending…</span>
+                    </button>
+                    <p class="form-success" id="formSuccess" hidden>✅ Message sent! We'll get back to you soon.</p>
+                    <p class="form-fail" id="formFail" hidden>❌ Something went wrong. Please try again.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="contact-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0113978010572!2d81.190321!3d8.690465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbfb4b1412053%3A0x275e6d3b6d98d525!2spranu%20house!5e0!3m2!1sen!2slk!4v1779522905121!5m2!1sen!2slk"
+            width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Our Location">
+        </iframe>
+    </div>
+</section>
+
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer" id="footer">
+    <div class="footer-top">
+        <div class="footer-col">
+            <p>123 Green Lane,</p>
+            <p>Colombo 03, Sri Lanka</p>
+            <br>
+            <p>+94 77 123 4567</p>
+        </div>
+        <div class="footer-col">
+            <p><strong>Monday – Friday:</strong></p>
+            <p>9:00 AM – 7:00 PM</p>
+            <br>
+            <p><strong>Saturday – Sunday:</strong></p>
+            <p>10:00 AM – 5:00 PM</p>
+        </div>
+        <div class="footer-col footer-col--right">
+            <a href="#">Shop All</a>
+            <a href="#">FAQs</a>
+            <a href="#">About Us</a>
+        </div>
+        <div class="footer-col">
+            <a href="#">Granola &amp; Nuts</a>
+            <a href="#">Chilli Paste</a>
+            <a href="#">Fish Pie</a>
+            <a href="#">Beef Moussaka</a>
+        </div>
+    </div>
+    <div class="footer-brand">
+        <h2 class="footer-brand-text">ANJELI FOODS</h2>
+    </div>
+    <div class="footer-bottom">
+        <div class="footer-bottom-left">
+            <span>© 2025</span>
+            <a href="#">Shipping &amp; Delivery</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <div class="footer-bottom-right">
+            <a href="YOUR_FACEBOOK_URL" target="_blank">Facebook</a>
+            <a href="YOUR_INSTAGRAM_URL" target="_blank">Instagram</a>
+            <a href="YOUR_TWITTER_URL" target="_blank">Twitter</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
